@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  min-height: 100vh;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right bottom, from(#23fe9f), to(#239fff));
+  background: linear-gradient(to bottom right, #23fe9f, #239fff);
+  background-repeat: no-repeat;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.container .input {
+  text-align: center;
+}
+
+.container .input .text-input {
+  width: 40%;
+  min-width: 200px;
+  border: #239fff 2px solid;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+.container .input button {
+  border: none;
+  background-color: #239fff;
+  color: white;
+  border-radius: 5px;
+}
+
+.container .row ul {
+  list-style-type: none;
+}
+
+.container .row ul .checkbox {
+  border: none;
+  border: solid 1px #239fff;
+}
+
+.container .row p {
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */
